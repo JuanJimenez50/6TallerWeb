@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('fondo.png');
+  }
+
+table { font-family: "Arial"; font-size: 30px; margin: 50px; width: 550px;
+
+    text-align: center; border-collapse: collapse; }
+
+ 
+
+th { font-size: 20px; font-weight: normal; padding: 8px; background: white; border-top: 4px solid green;
+
+    border-bottom: 1px solid #fff; color: green; }
+
+ 
+
+td { padding: 8px; background: cyan; border-bottom: 1px solid #fff; color: green; border-top: 1px solid transparent; }
+
+.editar {color: green; cursor:pointer;}
+
+tr:hover td { background: peachpuff; color: green; }
+
+#contenedorForm {margin-left: 45px; font-size:12px;}
+
+ 
+
+.boton {   color: black; padding: 10px; margin: 15px;
+
+  background-color: white;
+
+  font-weight: bold; }
+
